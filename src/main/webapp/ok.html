@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <scrpit src="js/jquery-3.3.1.min.js"></scrpit>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-static-top navbar-inverse ">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <ul class="nav nav-tabs">
+                <li class="navbar-brand" href="#">BOOT客户管理系统V1.0</li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle text-right" data-toggle="dropdown" href="#">
+                        <span class="glyphicon glyphicon-th"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Ajax</a></li>
+                        <li><a href="#">Spring</a></li>
+                        <li><a href="#">SpringMVC</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="list-group col-lg-2">
+            <a class="list-group-item"><input type="text">
+                <button><span class="glyphicon glyphicon-search"></span></button>
+            </a>
+            <a href="#" class="list-group-item active">客户管理</a>
+            <a href="#" class="list-group-item ">客户拜访</a>
+            <a href="#" class="list-group-item ">系统管理</a>
+        </div>
+        <div class="col-lg-10">
+            <div class="page-header">
+                <h1><strong>客户管理</strong></h1>
+            </div>
+        </div>
+        <div class="col-lg-10">
+            <strong>客户名称</strong><input type="text"><strong>客户来源</strong><input style="width: 100px" type="text"
+                                                                                placeholder="---请选择----"><strong>所属行业</strong><input
+                style="width: 100px" type="text" placeholder="---请选择----"><strong>客户级别</strong><input
+                style="width: 100px" type="text" placeholder="---请选择----">
+            <button class="btn btn-primary">查询</button>
+        </div>
+        <div class="col-lg-10">
+            <div class="panel panel-default">
+                <div class="panel-heading"><strong>客户信息列表</strong></div>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <td><strong>id</strong></td>
+                        <td><strong>客户名称</strong></td>
+                        <td><strong>客户来源</strong></td>
+                        <td><strong>客户所属行业</strong></td>
+                        <td><strong>客户级别</strong></td>
+                        <td><strong>固定电话</strong></td>
+                        <td><strong>手机号</strong></td>
+                        <td><strong>操作</strong></td>
+                    </tr>
+                    </thead>
+                    <thbody>
+                        <tr>
+                            <td><strong>1</strong></td>
+                            <td><strong>会飞的兔子</strong></td>
+                            <td><strong>阿里</strong></td>
+                            <td><strong>互联网</strong></td>
+                            <td><strong>普通客户</strong></td>
+                            <td><strong>04404404404</strong></td>
+                            <td><strong>13835463214</strong></td>
+                            <td>
+                                <button class="btn btn-info">修改</button>
+                                <button class="btn btn-danger">修改</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>2</strong></td>
+                            <td><strong>会飞的兔子</strong></td>
+                            <td><strong>阿里</strong></td>
+                            <td><strong>互联网</strong></td>
+                            <td><strong>普通客户</strong></td>
+                            <td><strong>04404404404</strong></td>
+                            <td><strong>13835463214</strong></td>
+                            <td>
+                                <button class="btn btn-info">修改</button>
+                                <button class="btn btn-danger">修改</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>3</strong></td>
+                            <td><strong>会飞的兔子</strong></td>
+                            <td><strong>阿里</strong></td>
+                            <td><strong>互联网</strong></td>
+                            <td><strong>普通客户</strong></td>
+                            <td><strong>04404404404</strong></td>
+                            <td><strong>13835463214</strong></td>
+                            <td>
+                                <button class="btn btn-info">修改</button>
+                                <button class="btn btn-danger">修改</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>4</strong></td>
+                            <td><strong>会飞的兔子</strong></td>
+                            <td><strong>阿里</strong></td>
+                            <td><strong>互联网</strong></td>
+                            <td><strong>普通客户</strong></td>
+                            <td><strong>04404404404</strong></td>
+                            <td><strong>13835463214</strong></td>
+                            <td>
+                                <button class="btn btn-info">修改</button>
+                                <button class="btn btn-danger">修改</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>5</strong></td>
+                            <td><strong>会飞的兔子</strong></td>
+                            <td><strong>阿里</strong></td>
+                            <td><strong>互联网</strong></td>
+                            <td><strong>普通客户</strong></td>
+                            <td><strong>04404404404</strong></td>
+                            <td><strong>13835463214</strong></td>
+                            <td>
+                                <button class="btn btn-info">修改</button>
+                                <button class="btn btn-danger">修改</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>6</strong></td>
+                            <td><strong>会飞的兔子</strong></td>
+                            <td><strong>阿里</strong></td>
+                            <td><strong>互联网</strong></td>
+                            <td><strong>普通客户</strong></td>
+                            <td><strong>04404404404</strong></td>
+                            <td><strong>13835463214</strong></td>
+                            <td>
+                                <button class="btn btn-info">修改</button>
+                                <button class="btn btn-danger">修改</button>
+                            </td>
+                        </tr>
+                    </thbody>
+                </table>
+                <nav>
+                    <ul class="pagination  pagination-lg ">
+                        <li class="disabled ">
+                            <a href="#">
+                                <span>&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#">
+                                <span>&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>
